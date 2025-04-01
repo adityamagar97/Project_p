@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T23:28:04 IST" name="Suite" finished-at="2025-04-01T23:28:18 IST" duration-ms="14526">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T23:28:04 IST" name="Test" finished-at="2025-04-01T23:28:18 IST" duration-ms="14526">
+      <class name="RunAll.RunAllTogether">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:04 IST" name="Setup" finished-at="2025-04-01T23:28:06 IST" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LetsRun(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:06 IST" name="LetsRun" data-provider="loginData" finished-at="2025-04-01T23:28:06 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adit@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsRun -->
+        <test-method is-config="true" signature="end()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:06 IST" name="end" finished-at="2025-04-01T23:28:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:06 IST" name="Setup" finished-at="2025-04-01T23:28:08 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LetsRun(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:08 IST" name="LetsRun" data-provider="loginData" finished-at="2025-04-01T23:28:09 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsRun -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:09 IST" name="Setup" finished-at="2025-04-01T23:28:15 IST" duration-ms="6288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="end()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:09 IST" name="end" finished-at="2025-04-01T23:28:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method signature="LetsRun(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:15 IST" name="LetsRun" data-provider="loginData" finished-at="2025-04-01T23:28:15 IST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rafg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsRun -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:15 IST" name="Setup" finished-at="2025-04-01T23:28:18 IST" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="end()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:15 IST" name="end" finished-at="2025-04-01T23:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method signature="LetsRun(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:18 IST" name="LetsRun" data-provider="loginData" finished-at="2025-04-01T23:28:18 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsRun -->
+        <test-method is-config="true" signature="end()[pri:0, instance:RunAll.RunAllTogether@5e316c74]" started-at="2025-04-01T23:28:18 IST" name="end" finished-at="2025-04-01T23:28:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- RunAll.RunAllTogether -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
