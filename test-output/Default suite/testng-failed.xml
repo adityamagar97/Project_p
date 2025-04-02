@@ -6,7 +6,7 @@
       <class name="RunAll.RunAllTogether">
         <methods>
           <include name="Setup"/>
-          <include name="LetsRun" invocation-numbers="3"/>
+          <include name="LetsRun" invocation-numbers="0 1 2"/>
           <include name="end"/>
         </methods>
       </class> <!-- RunAll.RunAllTogether -->
