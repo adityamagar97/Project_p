@@ -6,8 +6,8 @@
       <class name="RunAll.RunAllTogether">
         <methods>
           <include name="Setup"/>
-          <include name="LetsRun" invocation-numbers="0 1 2"/>
           <include name="end"/>
+          <include name="UserPagestarts"/>
         </methods>
       </class> <!-- RunAll.RunAllTogether -->
     </classes>

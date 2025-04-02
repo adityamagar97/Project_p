@@ -11,6 +11,9 @@ import org.testng.annotations.DataProvider;
 
 public class ExcelUtils {
     
+	
+	
+	
     @DataProvider(name = "loginData")
     public static Object[][] getData() throws IOException {
 
@@ -36,6 +39,8 @@ public class ExcelUtils {
     		}
     	}
     	return obj;
-
-    }
+    	
+    
+    	}
+    
 }

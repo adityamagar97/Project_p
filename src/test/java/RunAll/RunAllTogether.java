@@ -12,9 +12,12 @@ public class RunAllTogether extends BaseClass{
 	
 	
 	
-//	@Test(priority = 3, enabled =true)
-	void UserPagestarts()
+	@Test(priority = 3, enabled =true)
+	void UserPagestarts() throws InterruptedException
 	{
+		
+		lp.login("kiran@gmail.com","123456", null);
+		Thread.sleep(2000);
 		up.sf();
 		up.dfe();
 		up.usernameEnter("Aditya Magar");
@@ -25,11 +28,11 @@ public class RunAllTogether extends BaseClass{
 		up.DState();
 		up.Passwo("Aditya$55");
 		up.sube();
-// up.aleart();
+        up.aleart();
 		
 	}
 	
-//	@Test (priority = 1, enabled = true)
+	@Test (priority = 1, enabled = true)
 	void RegisterFisrst() throws InterruptedException {
 		
 		rrp.ccl();
@@ -48,36 +51,38 @@ public class RunAllTogether extends BaseClass{
 	
 	
 	
-	@Test (priority = 1, dataProvider = "loginData", dataProviderClass = ExcelUtils.class )  
+	@Test (priority = 2, dataProvider = "loginData", dataProviderClass = ExcelUtils.class )  
 	void LetsRun(String em,String ps , String condition) throws InterruptedException {
 		
 		
 //		lp.email("Aditya");
 //		lp.passw("aditya");
 //		lp.cl();
-		rrp.ccl();
-		rrp.enternamee("Aditya Magar");
-		rrp.enterPhoneno("7776836496");
-		rrp.emaill("adityamagar07@gmail.com");
-		rrp.Password("Adiitya@565");
+//		rrp.ccl();
+//		rrp.enternamee("Aditya Magar");
+//		rrp.enterPhoneno("7776836496");
+//		rrp.emaill("adityamagar07@gmail.com");
+//		rrp.Password("Adiitya@565");
+//		Thread.sleep(2000);
+//		rrp.Signin();
+//		Thread.sleep(2000);
+//		rrp.aleartt();
+//		Thread.sleep(2000);
+//		rrp.alre();
 		Thread.sleep(2000);
-		rrp.Signin();
-		Thread.sleep(2000);
-		rrp.aleartt();
-		Thread.sleep(2000);
-		rrp.alre();
 		lp.login(em,ps,condition);
-		up.sf();
-		up.dfe();
-		up.usernameEnter("Aditya Magar");
-		up.enterPhoneno("7776836496");
-		up.emailiD("adityamagar08@gmail.com");
-		up.Selcourse("java");
-		up.Cmale();
-		up.DState();
-		up.Passwo("Aditya$55");
-		up.sube();
-     // up.aleart();
+//		up.sf();
+//		up.dfe();
+//		up.usernameEnter("Aditya Magar");
+//		up.enterPhoneno("7776836496");
+//		up.emailiD("adityamagar08@gmail.com");
+//		up.Selcourse("java");
+//		up.Cmale();
+//		up.DState();
+//		up.Passwo("Aditya$55");
+//		up.sube();
+//		Thread.sleep(2000);
+//        up.aleart();
         
         if(condition.equals("Valid")) {
         	AssertJUnit.assertEquals(lp.wrval(),"file:///Users/adityamagar/Desktop/TNS%20/Selenium%20Softwares/Offline%20Website/pages/examples/dashboard.html");
